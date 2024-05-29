@@ -10,22 +10,22 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@fun-vibe/ui": "*",
     "next": "^14.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@repo/ui": "*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@fun-vibe/eslint-config": "*",
+    "@fun-vibe/tailwind-config": "*",
+    "@fun-vibe/typescript-config": "*",
     "@next/eslint-plugin-next": "^14.1.1",
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
     "autoprefixer": "^10.4.18",
-    "@repo/eslint-config": "*",
     "postcss": "^8.4.35",
-    "@repo/tailwind-config": "*",
     "tailwindcss": "^3.4.1",
-    "@repo/typescript-config": "*",
     "typescript": "^5.3.3"
   }
 }
